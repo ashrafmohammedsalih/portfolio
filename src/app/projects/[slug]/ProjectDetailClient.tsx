@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Img from "@/components/Img";
 import { motion } from "framer-motion";
 import type { ScreenSection } from "@/data/portfolio";
 
@@ -36,7 +36,7 @@ function PhoneMockup({
       <div className="relative w-[200px] sm:w-[220px]">
         <div className="rounded-[2.2rem] border-[5px] border-zinc-700 bg-zinc-800 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)] overflow-hidden">
           <div className="relative overflow-hidden rounded-[1.8rem]">
-            <Image
+            <Img
               src={src}
               alt={label}
               width={430}
@@ -87,7 +87,7 @@ function KioskMockup({
 
           {/* Screen */}
           <div className="relative overflow-hidden rounded-lg bg-white">
-            <Image
+            <Img
               src={src}
               alt={label}
               width={648}

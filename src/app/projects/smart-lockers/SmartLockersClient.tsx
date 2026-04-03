@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Img from "@/components/Img";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -82,7 +82,7 @@ function ProductCard({
       <div className="md:flex">
         {/* Product image */}
         <div className="relative md:w-72 h-64 md:h-auto flex-shrink-0 bg-gradient-to-br from-white/[0.02] to-transparent border-b md:border-b-0 md:border-r border-white/5">
-          <Image src={image} alt={`${model} — ${title}`} fill className="object-contain p-4" />
+          <Img src={image} alt={`${model} — ${title}`} fill className="object-contain p-4" />
         </div>
 
         {/* Details */}
@@ -448,7 +448,7 @@ export default function SmartLockersClient() {
             className="ml-11 mb-12 bg-gradient-to-r from-cyan-500/5 to-emerald-500/5 rounded-2xl border border-cyan-500/10 p-6 flex flex-col md:flex-row items-center gap-6"
           >
             <div className="relative w-full md:w-64 h-48 flex-shrink-0 rounded-xl overflow-hidden bg-white/5">
-              <Image src="/images/smart-lockers/locker-system.webp" alt="KERONG Smart Locker System Solution" fill className="object-contain p-2" />
+              <Img src="/images/smart-lockers/locker-system.webp" alt="KERONG Smart Locker System Solution" fill className="object-contain p-2" />
             </div>
             <div>
               <h3 className="text-lg font-semibold text-white mb-2">Complete Locker Control Ecosystem</h3>

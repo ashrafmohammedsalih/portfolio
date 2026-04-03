@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Img from "@/components/Img";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { projects } from "@/data/portfolio";
@@ -123,7 +123,7 @@ export default function Projects() {
                         <div className="absolute right-4 -bottom-6 group-hover:-bottom-3 transition-all duration-500 ease-out">
                           <div className="w-[100px] rounded-[1rem] border-[3px] border-zinc-700 bg-zinc-800 shadow-2xl overflow-hidden">
                             <div className="rounded-[0.8rem] overflow-hidden">
-                              <Image
+                              <Img
                                 src={project.preview}
                                 alt=""
                                 width={215}
@@ -141,7 +141,7 @@ export default function Projects() {
                       {project.preview && project.previewType === "wide" && (
                         <div className="absolute inset-0 flex items-center justify-center">
                           <div className="relative w-full h-full opacity-40 group-hover:opacity-60 transition-opacity duration-500">
-                            <Image
+                            <Img
                               src={project.preview}
                               alt=""
                               fill
@@ -158,7 +158,7 @@ export default function Projects() {
                       {!project.preview && project.logo && (
                         <div className="absolute inset-0 flex items-center justify-center">
                           <div className="relative w-16 h-16 opacity-30 group-hover:opacity-50 transition-opacity">
-                            <Image src={project.logo} alt="" fill className="object-contain brightness-0 invert" sizes="64px" aria-hidden="true" />
+                            <Img src={project.logo} alt="" fill className="object-contain brightness-0 invert" sizes="64px" aria-hidden="true" />
                           </div>
                         </div>
                       )}
@@ -179,7 +179,7 @@ export default function Projects() {
                       {project.logo && project.preview && (
                         <div className="absolute top-3.5 left-3.5">
                           <div className="relative w-8 h-8 opacity-40">
-                            <Image src={project.logo} alt="" fill className="object-contain brightness-0 invert" sizes="32px" aria-hidden="true" />
+                            <Img src={project.logo} alt="" fill className="object-contain brightness-0 invert" sizes="32px" aria-hidden="true" />
                           </div>
                         </div>
                       )}

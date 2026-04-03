@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Img from "@/components/Img";
 
 export default function PhoneMockup({
   src,
@@ -16,7 +16,7 @@ export default function PhoneMockup({
 
         {/* Screen */}
         <div className="relative bg-white rounded-[2rem] overflow-hidden">
-          <Image
+          <Img
             src={src}
             alt={alt}
             width={268}

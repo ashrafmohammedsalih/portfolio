@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Img from "@/components/Img";
 import KhozamaClient from "./KhozamaClient";
 
 export const metadata = {
@@ -68,7 +68,7 @@ export default function KhozamaMealsPage() {
             {/* Khozama logo */}
             <div className="flex-shrink-0 hidden md:block">
               <div className="relative w-48 h-20 opacity-70">
-                <Image
+                <Img
                   src="/images/khozama-meals/kuzama-logo.png"
                   alt="Al Kuzama Trading Co"
                   fill
@@ -83,7 +83,7 @@ export default function KhozamaMealsPage() {
       {/* ── Cover slide image ── */}
       <section className="mx-auto max-w-6xl px-6 py-12 border-t border-white/5">
         <div className="relative rounded-2xl overflow-hidden border border-white/10">
-          <Image
+          <Img
             src="/images/khozama-meals/slide-cover.jpg"
             alt="Alkuzama Meal Subscriptions — Smart Lockers platform with locker machine displaying AlKuzama branded meal boxes"
             width={2751}

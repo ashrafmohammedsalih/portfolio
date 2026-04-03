@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Img from "@/components/Img";
 import { motion } from "framer-motion";
 
 const fadeUp = {
@@ -96,7 +96,7 @@ export default function Certifications() {
                 />
                 {/* Real OffSec badge image */}
                 <div className="relative w-36 h-36 md:w-40 md:h-40 z-[1]">
-                  <Image
+                  <Img
                     src={cert.image}
                     alt={cert.badge}
                     fill

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
+import Img from "@/components/Img";
 import { projects } from "@/data/portfolio";
 import ProjectDetailClient from "./ProjectDetailClient";
 
@@ -55,7 +55,7 @@ export default async function ProjectPage({
         {/* Logo watermark */}
         {project.logo && (
           <div className="absolute -right-10 top-1/2 -translate-y-1/2 opacity-[0.06] pointer-events-none select-none hidden md:block">
-            <Image
+            <Img
               src={project.logo}
               alt=""
               width={500}
@@ -167,7 +167,7 @@ export default async function ProjectPage({
                   key={i}
                   className="relative w-full rounded-2xl overflow-hidden border border-white/10 bg-[#12121a]"
                 >
-                  <Image
+                  <Img
                     src={img}
                     alt={`${project.title} screenshot ${i + 1}`}
                     width={1200}

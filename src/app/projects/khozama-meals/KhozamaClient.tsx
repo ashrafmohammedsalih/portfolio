@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Img from "@/components/Img";
 import { motion } from "framer-motion";
 
 const fadeUp = {
@@ -83,7 +83,7 @@ export default function KhozamaClient() {
 
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
-              <Image
+              <Img
                 src="/images/khozama-meals/slide-app-features.jpg"
                 alt="App features: create account, choose subscription, select meals, view nutrition, receive daily notifications, open locker via QR"
                 width={2751}
@@ -174,7 +174,7 @@ export default function KhozamaClient() {
                     <div className="relative w-[200px] sm:w-[220px]">
                       <div className="rounded-[2.2rem] border-[5px] border-zinc-700 bg-zinc-800 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.5)] overflow-hidden">
                         <div className="relative overflow-hidden rounded-[1.8rem]">
-                          <Image src={screen.src} alt={screen.label} width={430} height={932} className="w-full h-auto scale-[1.02]" sizes="220px" quality={90} />
+                          <Img src={screen.src} alt={screen.label} width={430} height={932} className="w-full h-auto scale-[1.02]" sizes="220px" quality={90} />
                         </div>
                       </div>
                     </div>
@@ -194,7 +194,7 @@ export default function KhozamaClient() {
 
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
-              <Image
+              <Img
                 src="/images/khozama-meals/slide-smart-locker.jpg"
                 alt="Smart Locker role: standalone machine with individual boxes, each assigned to a subscriber, opens only via QR"
                 width={2751}
@@ -233,7 +233,7 @@ export default function KhozamaClient() {
 
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
-              <Image
+              <Img
                 src="/images/khozama-meals/slide-app-machine.jpg"
                 alt="Full integration flow: Subscription → Scheduling → Packing → Pickup via QR"
                 width={2751}
@@ -270,7 +270,7 @@ export default function KhozamaClient() {
 
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
-              <Image
+              <Img
                 src="/images/khozama-meals/slide-dashboard.jpg"
                 alt="Operations dashboard with subscription management, box management, packing schedules, pickup monitoring, and analytics"
                 width={2751}

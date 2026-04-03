@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Img from "@/components/Img";
 import { motion } from "framer-motion";
 import { personal } from "@/data/portfolio";
 
@@ -32,7 +32,7 @@ export default function Hero() {
               {/* Glow ring */}
               <div className="absolute -inset-1.5 rounded-full bg-gradient-to-br from-red-500 via-purple-500 to-cyan-500 opacity-50 blur-md" />
               <div className="relative w-full h-full rounded-full overflow-hidden border-[3px] border-white/15">
-                <Image
+                <Img
                   src={personal.photo}
                   alt={personal.name}
                   fill

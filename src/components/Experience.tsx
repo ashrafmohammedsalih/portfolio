@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Img from "@/components/Img";
 import { motion } from "framer-motion";
 import { experiences } from "@/data/portfolio";
 
@@ -42,7 +42,7 @@ export default function Experience() {
               {/* Header with logo */}
               <div className="flex items-center gap-5 px-6 py-5 border-b border-white/5">
                 <div className="relative w-20 h-20 flex-shrink-0 rounded-xl overflow-hidden bg-white/5 border border-white/10 flex items-center justify-center">
-                  <Image
+                  <Img
                     src={exp.logo}
                     alt={exp.company}
                     fill

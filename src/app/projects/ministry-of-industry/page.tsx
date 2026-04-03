@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Img from "@/components/Img";
 import MinistryClient from "./MinistryClient";
 
 export const metadata = {
@@ -40,7 +40,7 @@ export default function MinistryPage() {
           {/* Ministry logo */}
           <div className="flex items-center gap-4 mb-8">
             <div className="relative w-48 h-14 opacity-70">
-              <Image
+              <Img
                 src="/images/ministry-of-industry/ministry-logo.png"
                 alt="Ministry of Industry and Mineral Resources"
                 fill
@@ -87,7 +87,7 @@ export default function MinistryPage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="md:col-span-1 relative aspect-[3/5] rounded-2xl overflow-hidden border border-white/10">
-            <Image
+            <Img
               src="/images/ministry-of-industry/lobby-signage.jpg"
               alt="Digital signage in the Ministry lobby announcing the free meal vending service"
               fill
@@ -100,7 +100,7 @@ export default function MinistryPage() {
             </div>
           </div>
           <div className="md:col-span-1 relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10">
-            <Image
+            <Img
               src="/images/ministry-of-industry/machine-front.jpg"
               alt="Afen vending machine front view with refrigerated shelves, touchscreen, and NFC reader"
               fill
@@ -113,7 +113,7 @@ export default function MinistryPage() {
             </div>
           </div>
           <div className="md:col-span-1 relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10">
-            <Image
+            <Img
               src="/images/ministry-of-industry/machine-side.jpg"
               alt="Side view of branded vending machine — المذاق مو طبيعي — صناعة سعودية"
               fill

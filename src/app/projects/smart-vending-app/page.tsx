@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Img from "@/components/Img";
 import SmartVendingClient from "./SmartVendingClient";
 
 export const metadata = {
@@ -82,7 +82,7 @@ export default function SmartVendingAppPage() {
             {/* Logo */}
             <div className="flex-shrink-0 hidden md:block">
               <div className="relative w-24 h-24 opacity-60">
-                <Image
+                <Img
                   src="/images/saladbar-meals/logo.png"
                   alt="SaladBar"
                   fill
