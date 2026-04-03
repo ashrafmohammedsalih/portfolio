@@ -84,7 +84,7 @@ export default function KhozamaClient() {
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/images/khozama-meals/slide-app-features.png"
+                src="/images/khozama-meals/slide-app-features.jpg"
                 alt="App features: create account, choose subscription, select meals, view nutrition, receive daily notifications, open locker via QR"
                 width={2751}
                 height={1536}
@@ -127,8 +127,8 @@ export default function KhozamaClient() {
               title: "Welcome & Authentication",
               desc: "The app opens with the Al Kuzama brand identity. Users sign in with phone number, Google, or Apple ID.",
               screens: [
-                { src: "/images/khozama-meals/screen-01.png", label: "Welcome Screen" },
-                { src: "/images/khozama-meals/screen-03.png", label: "Welcome (Variant)" },
+                { src: "/images/khozama-meals/screen-01.jpg", label: "Welcome Screen" },
+                { src: "/images/khozama-meals/screen-03.jpg", label: "Welcome (Variant)" },
                 { src: "/images/khozama-meals/screen-04.png", label: "Phone Login" },
               ],
             },
@@ -146,8 +146,8 @@ export default function KhozamaClient() {
               desc: "Weekly planner with per-day breakfast, snack, and lunch. Browse menu by cuisine (Eastern, English, International) with full nutritional breakdown.",
               screens: [
                 { src: "/images/khozama-meals/screen-35.png", label: "Weekly Meal Planner" },
-                { src: "/images/khozama-meals/screen-17.png", label: "Breakfast Menu" },
-                { src: "/images/khozama-meals/screen-18.png", label: "Meal Detail & Nutrition" },
+                { src: "/images/khozama-meals/screen-17.jpg", label: "Breakfast Menu" },
+                { src: "/images/khozama-meals/screen-18.jpg", label: "Meal Detail & Nutrition" },
               ],
             },
             {
@@ -195,7 +195,7 @@ export default function KhozamaClient() {
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/images/khozama-meals/slide-smart-locker.png"
+                src="/images/khozama-meals/slide-smart-locker.jpg"
                 alt="Smart Locker role: standalone machine with individual boxes, each assigned to a subscriber, opens only via QR"
                 width={2751}
                 height={1536}
@@ -234,7 +234,7 @@ export default function KhozamaClient() {
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/images/khozama-meals/slide-app-machine.png"
+                src="/images/khozama-meals/slide-app-machine.jpg"
                 alt="Full integration flow: Subscription → Scheduling → Packing → Pickup via QR"
                 width={2751}
                 height={1536}
@@ -271,7 +271,7 @@ export default function KhozamaClient() {
           <div className="ml-11 mb-10">
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/images/khozama-meals/slide-dashboard.png"
+                src="/images/khozama-meals/slide-dashboard.jpg"
                 alt="Operations dashboard with subscription management, box management, packing schedules, pickup monitoring, and analytics"
                 width={2751}
                 height={1536}

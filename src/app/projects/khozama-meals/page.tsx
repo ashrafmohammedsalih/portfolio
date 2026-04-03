@@ -84,7 +84,7 @@ export default function KhozamaMealsPage() {
       <section className="mx-auto max-w-6xl px-6 py-12 border-t border-white/5">
         <div className="relative rounded-2xl overflow-hidden border border-white/10">
           <Image
-            src="/images/khozama-meals/slide-cover.png"
+            src="/images/khozama-meals/slide-cover.jpg"
             alt="Alkuzama Meal Subscriptions — Smart Lockers platform with locker machine displaying AlKuzama branded meal boxes"
             width={2751}
             height={1536}

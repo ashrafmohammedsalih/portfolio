@@ -292,8 +292,8 @@ export const projects: Project[] = [
         title: "Welcome & Brand",
         description: "The app opens with the Al Kuzama brand identity \u2014 elegant serif typography over warm food photography with a cozy fireplace ambiance. \u201cHealthy meals designed specifically for your workday.\u201d Users sign in with phone number, Google, or Apple ID.",
         screens: [
-          { image: "/images/khozama-meals/screen-01.png", label: "Welcome Screen" },
-          { image: "/images/khozama-meals/screen-03.png", label: "Welcome (Variant)" },
+          { image: "/images/khozama-meals/screen-01.jpg", label: "Welcome Screen" },
+          { image: "/images/khozama-meals/screen-03.jpg", label: "Welcome (Variant)" },
           { image: "/images/khozama-meals/screen-04.png", label: "Phone Login" },
         ],
       },
@@ -320,8 +320,8 @@ export const projects: Project[] = [
         description: "Step 4 \u2014 the weekly meal planner lets users customize their breakfast, snack, and lunch for each day (Sunday through Thursday). Users can browse the full menu filtered by cuisine type (Eastern, English, International), view nutritional info (calories, protein, carbs), and add favorites. A \u201crepeat last week\u201d option saves time.",
         screens: [
           { image: "/images/khozama-meals/screen-35.png", label: "Weekly Meal Planner" },
-          { image: "/images/khozama-meals/screen-17.png", label: "Breakfast Menu" },
-          { image: "/images/khozama-meals/screen-18.png", label: "Meal Detail & Nutrition" },
+          { image: "/images/khozama-meals/screen-17.jpg", label: "Breakfast Menu" },
+          { image: "/images/khozama-meals/screen-18.jpg", label: "Meal Detail & Nutrition" },
         ],
       },
       {
@@ -360,7 +360,7 @@ export const projects: Project[] = [
     category: "app",
     color: "#1B5E3B",
     logo: "/images/3minutes-taxi/logo.png",
-    preview: "/images/3minutes-taxi/banner.png",
+    preview: "/images/3minutes-taxi/banner.jpg",
     previewType: "wide" as const,
     summary:
       "A ride-hailing taxi app operating in Saudi Arabia connecting passengers with professional drivers. Features real-time GPS tracking, multiple service tiers (daily commute, family transport, business VIP, delivery), fixed pricing with no surge charges, and multiple payment options. Trusted by over 50,000 customers.",
@@ -603,7 +603,7 @@ export const projects: Project[] = [
         description: "Users choose their audience mode \u2014 \u201cMeals for employees\u201d (office) or \u201cMeals for Gym bros\u201d (fitness). Then select a dietary package: Low-carb or Balanced, each with detailed nutritional descriptions and food photography. Plans are available as Weekly (400 SAR) or Monthly (1200 SAR) subscriptions.",
         screens: [
           { image: "/images/saladbar-meals/screen-24.png", label: "Audience Selection" },
-          { image: "/images/saladbar-meals/screen-35.png", label: "Dietary Packages" },
+          { image: "/images/saladbar-meals/screen-35.jpg", label: "Dietary Packages" },
           { image: "/images/saladbar-meals/screen-29.png", label: "Plan Selection" },
         ],
       },
