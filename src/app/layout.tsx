@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ashraf Mohamed | Application Developer",
+  title: "Ashraf Mohamed | Penetration Tester | OSCP+",
   description:
-    "Portfolio of Ashraf Mohamed — Mobile Application Developer & IoT Developer based in Riyadh, Saudi Arabia.",
+    "Portfolio of Ashraf Mohamed — Security Researcher & Penetration Tester | OSCP+ Certified | IoT Security · Hardware Hacking · Web Application Security",
 };
 
 export default function RootLayout({
